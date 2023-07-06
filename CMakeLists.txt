@@ -57,6 +57,7 @@ FetchContent_Declare(
 		SDL2_MIXER
 		GIT_REPOSITORY  https://github.com/libsdl-org/SDL_mixer.git
 		GIT_TAG         release-2.6.3
+		GIT_SHALLOW TRUE
 		GIT_PROGRESS    TRUE
 )
 FetchContent_MakeAvailable(SDL2_MIXER)

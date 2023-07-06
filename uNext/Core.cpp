@@ -97,7 +97,7 @@ void CCore::mainLoop() {
 		Update();
 		Draw();
 
-		/*CCFG::getText()->Draw(rR, "FPS:" + std::to_string(iNumOfFPS), CCFG::GAME_WIDTH - CCFG::getText()->getTextWidth("FPS:" + std::to_string(iNumOfFPS), 8) - 8, 5, 8);
+		CCFG::getText()->Draw(rR, "FPS:" + std::to_string(iNumOfFPS), CCFG::GAME_WIDTH - CCFG::getText()->getTextWidth("FPS:" + std::to_string(iNumOfFPS), 8) - 8, 5, 8);
 
 		if(SDL_GetTicks() - 1000 >= lFPSTime) {
 			lFPSTime = SDL_GetTicks();
@@ -105,7 +105,7 @@ void CCore::mainLoop() {
 			iFPS = 0;
 		}
 
-		++iFPS;*/
+		++iFPS;
 
 		SDL_RenderPresent(rR);
 		
