@@ -30,3 +30,6 @@
 # CMake
 build
 /Build_*/
+
+#clion
+/.idea/
